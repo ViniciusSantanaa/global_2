@@ -1,0 +1,25 @@
+.fundo_card{
+    background-color: #88B257;
+    width: 22rem;
+    height: 30.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.imagem{
+    border-radius: 1rem;
+    margin-top: 2rem;
+    object-fit: cover; 
+}
+
+.descricao{
+    color: #F0EAD6;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 13rem;
+    margin-top: 0.6rem;
+    border-bottom: solid 0.1rem #F0EAD6;
+}

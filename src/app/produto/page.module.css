@@ -1,0 +1,15 @@
+.titulo{
+    font-size: 2rem;
+    color: var(--cor-verde);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.texto_produto{
+    color: var(--cor-verde);
+    font-size: 1.5rem;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+}

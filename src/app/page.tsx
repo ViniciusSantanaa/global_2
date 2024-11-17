@@ -1,95 +1,19 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import styles from "@/app/page.module.css"
+import Image from "next/image"
+import Gaia from "@/assets/imagem_gaia.jpg"
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+      <>
+      <main className={styles.main}>
+        <div className={styles.div_gaia}>       
+          <h1 className={styles.h1_gaia}>O Que Gaia Representa?</h1>
+          <p className={styles.texto_gaia}>Gaia, na mitologia grega, é a deusa primordial da Terra, simbolizando a essência da natureza e a fonte de toda vida. Personificação do próprio planeta, Gaia surgiu do caos para dar origem ao céu , às montanhas, aos mares e a todas as formas de vida. Ela representa a energia vital que sustenta o equilíbrio do ecossistema, trazendo fertilidade, abundância e harmonia. Como protetora da natureza, Gaia nos lembra da importância de cuidar do planeta e manter a conexão entre todos os seres vivos. Sua história inspira o respeito pela Terra e a busca por um futuro mais sustentável e equilibrado.</p>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+        <div className={styles.div_imagem_gaia}>
+          <Image src={Gaia} alt={"Imagem da Deusa Gaia"} className={styles.imagem_gaia}/>
+        </div>
+      </main>
+      </>
   )
 }

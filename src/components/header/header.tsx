@@ -11,8 +11,9 @@ export default function Header(){
                 <div>
                     <ul className={styles.menu}>
                         <li><Link href="/produto" className={styles.menu__links}>Produto</Link></li>
+                        <li><Link href="/projetos" className={styles.menu__links}>Projetos</Link></li>
+                        <li><Link href="/doacao" className={styles.menu__links}>Doações</Link></li>
                         <li><Link href="/criadores" className={styles.menu__links}>Criadores</Link></li>
-                        <li><Link href="" className={styles.menu__links}>Alguma coisa</Link></li>
                     </ul>
                 </div>
             </div>

@@ -2,7 +2,7 @@
     font-size: 2rem;
     color: var(--cor-verde);
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
 
 .texto_produto{
@@ -11,5 +11,5 @@
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 2rem;
+    padding: 1.5rem;
 }

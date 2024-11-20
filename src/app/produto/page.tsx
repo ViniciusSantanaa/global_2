@@ -3,8 +3,14 @@ import styles from "@/app/produto/page.module.css"
 export default function Produto(){
     return(
         <main>
-            <h1 className={styles.titulo}>Como nosso produto funciona?</h1>
-            <p className={styles.texto_produto}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus facilis blanditiis nemo. Excepturi voluptatum impedit animi, repellat distinctio, veritatis rerum deserunt facere magni iure cum voluptatibus nemo, at id expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, voluptate distinctio quos aut saepe, ipsam voluptas nam officiis voluptatum optio eveniet odio cumque a nulla exercitationem dignissimos nisi rem sed? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ex tenetur distinctio, iste, nesciunt in natus consectetur magni minima fuga, unde sit facilis quam reprehenderit cupiditate eos odit quos ad.</p>
+            <h1 className={styles.titulo}>Como nosso sistema funciona?</h1>
+            <p className={styles.texto_produto}>Estamos propondo uma solução digital para o financiamento coletivo de projetos de energia renovável em comunidades de baixa renda. O sistema não só possibilita que você invista em uma causa nobre, como também oferece um retorno financeiro à medida que esses projetos geram economia de energia e proporcionam novas fontes de renda para as comunidades atendidas. Com um processo simples e acessível, todos podem participar e contribuir para um futuro mais sustentável e próspero.</p>
+
+            <h1 className={styles.titulo}>Como posso doar?</h1>
+            <p className={styles.texto_produto}>O processo será realizado por meio de um Pix com QR Code, o que permite que você faça sua contribuição de forma prática, sem necessidade de intermediários ou complicação. Basta escanear o QR Code com o aplicativo do seu banco e pronto! Seu apoio será direcionado diretamente para os projetos que vão transformar a realidade dessas comunidades.</p>
+
+            <h1 className={styles.titulo}>Como funciona o sistema de retorno?</h1>
+            <p className={styles.texto_produto}>Além de ajudar na melhoria das condições de vida de muitas pessoas, sua contribuição tem um retorno financeiro para você, o investidor. À medida que os projetos geram economia de energia e geram renda para as comunidades, você verá os resultados no retorno do seu investimento. Esses projetos não só impactam positivamente o ambiente, mas também criam um ciclo de benefícios, garantindo que todos os envolvidos tenham algo a ganhar. O retorno é baseado no impacto das soluções de energia renovável, que reduzem custos e aumentam a sustentabilidade das comunidades.</p>
         </main>
     )
 }

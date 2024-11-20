@@ -29,3 +29,7 @@
     font-size: 1rem;
     font-weight: bold;
 }
+
+.menu__links:hover{
+    border-bottom: solid 2px var(--cor-verde);
+}

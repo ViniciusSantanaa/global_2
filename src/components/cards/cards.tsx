@@ -17,7 +17,7 @@ interface LayoutCard {
 export const Card: React.FC<LayoutCard> = ({ texto1, texto2, texto3, Linkedin, Github, href_Linkedin, href_Github, imagem }) => {
     return (
         <div className={styles.fundo_card}>
-            <Image src={imagem} alt={"Imagem do criador"} width={200} height={200} className={styles.imagem} />
+            <Image src={imagem} alt={"Imagem"} width={200} height={200} className={styles.imagem} />
             <p className={styles.descricao}>{texto1}</p>
             <p className={styles.descricao}>{texto2}</p>
             <p className={styles.descricao}>{texto3}</p>

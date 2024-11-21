@@ -28,18 +28,39 @@
     font-weight: bold;
 }
 
-.ajustes_div_gaia{
+.section_texto_sustentavel{
+    background-color: #D9F5C0;
+    height: 90vh;
+}
+
+.texto_sustentavel_titulo{
+    color: var(--cor-verde);
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.texto_sustentavel_texto{
+    color: var(--cor-verde);
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ajustes_section_gaia{
     display: flex;
     padding: 3rem;
 }
 
-.div_gaia{
+.section_gaia{
     width: 70%;
     display: flex;
     flex-direction: column;
 }
 
-.div_imagem_gaia{
+.section_imagem_gaia{
     display: flex;
     align-items: center;
 }
@@ -47,6 +68,7 @@
 .h1_gaia{
     color: var(--cor-verde);
     font-family: var(--fonte-texto);
+    font-size: 2rem;
     font-weight: 500;
     text-align: center;
     margin-top: 2.5rem;
@@ -54,7 +76,7 @@
 
 .texto_gaia{
     color: var(--cor-verde);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding: 1.5rem;
 }
 

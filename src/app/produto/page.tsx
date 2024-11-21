@@ -2,7 +2,7 @@ import styles from "@/app/produto/page.module.css"
 
 export default function Produto(){
     return(
-        <main className={styles.main}>
+        <main>
             <h1 className={styles.titulo}>Como nosso sistema funciona?</h1>
             <p className={styles.texto_produto}>Estamos propondo uma solução digital para o financiamento coletivo de projetos de energia renovável em comunidades de baixa renda. O sistema não só possibilita que você invista em uma causa nobre, como também oferece um retorno financeiro à medida que esses projetos geram economia de energia e proporcionam novas fontes de renda para as comunidades atendidas. Com um processo simples e acessível, todos podem participar e contribuir para um futuro mais sustentável e próspero.</p>
 

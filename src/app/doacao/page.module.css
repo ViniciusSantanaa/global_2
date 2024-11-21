@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.div_doe{
+    margin: 5rem;
+    height: 40rem;
+    width: 30rem;
+    border: solid 0.2rem var(--cor-verde);
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column  ;
+}
+
+.h1{
+    color: var(--cor-verde);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.img_qr_code{
+    border: solid 0.4rem #1D3B34;
+    border-radius: 0.2rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+.texto_detalhes{
+    color: #1D3B34;
+    padding-top: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.texto_detalhes_info{
+    color: #1D3B34;
+    font-size: 1rem;
+}

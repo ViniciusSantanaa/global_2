@@ -3,13 +3,18 @@
     color: var(--cor-verde);
     text-align: center;
     margin-top: 2.5rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .texto_produto{
     color: var(--cor-verde);
     font-size: 1.5rem;
-    width: 85%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding: 1.5rem;
 }
+
+/*não necessário responsividade, já está tudo ajeitado*/

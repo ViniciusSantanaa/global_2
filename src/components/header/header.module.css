@@ -33,3 +33,53 @@
 .menu__links:hover{
     border-bottom: solid 2px var(--cor-verde);
 }
+
+@media (max-width: 430px) {
+    .nav{
+        height: 23rem;
+    }
+
+    .div_gaia{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu{
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .menu__links{
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 431px) and (max-width: 744px) {
+    .nav{
+        height: 23rem;
+    }
+
+    .div_gaia{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu{
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .menu__links{
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 745px) and (max-width: 834px) {
+
+}
+
+@media (min-width: 835px) and (max-width: 1024px) {
+
+}

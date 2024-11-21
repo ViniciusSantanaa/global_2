@@ -76,7 +76,7 @@
 .texto_gaia{
     color: var(--cor-verde);
     font-size: 1.5rem;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .imagem_gaia{
@@ -135,6 +135,10 @@
         margin-top: 2rem;
         height: 18rem;
         width: 18rem;
+    }
+
+    .section_texto_sustentavel{
+        height: 95vh;
     }
 
     .texto_sustentavel_titulo{

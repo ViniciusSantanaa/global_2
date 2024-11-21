@@ -37,13 +37,12 @@
     color: var(--cor-verde);
     font-size: 2rem;
     text-align: center;
-    padding-top: 3rem;
+    padding: 3rem;
 }
 
 .texto_sustentavel_texto{
     color: var(--cor-verde);
     font-size: 1.5rem;
-    padding-top: 3rem;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -83,4 +82,218 @@
 .imagem_gaia{
     width: 30rem;
     height: 30rem;
+}
+
+@media (max-width: 430px) {
+    .apresentacao{
+        height: 90vh;
+    }
+
+    .logo_gaia{
+        margin-top: 2rem;
+        height: 18rem;
+        width: 18rem;
+    }
+
+    .texto_sustentavel_titulo{
+        font-size: 1.8rem;
+        padding-top: 3rem;
+    }
+
+    .texto_sustentavel_texto{
+        font-size: 1.2rem;
+        padding-top: 2rem;
+    }
+    
+    .ajustes_section_gaia{
+        padding: 1rem;
+    }
+
+    .h1_gaia{
+        font-size: 1.5rem;
+    }
+
+    .texto_gaia{
+        font-size: 1.1rem;
+        padding: 0.5rem;
+    }
+
+    .imagem_gaia{
+        width: 10rem;
+        height: 10rem;
+    }
+
+
+}
+
+@media (min-width: 431px) and (max-width: 540px) {
+    .apresentacao{
+        height: 85vh;
+    }
+
+    .logo_gaia{
+        margin-top: 2rem;
+        height: 18rem;
+        width: 18rem;
+    }
+
+    .texto_sustentavel_titulo{
+        font-size: 1.8rem;
+        padding-top: 3rem;
+    }
+
+    .texto_sustentavel_texto{
+        font-size: 1.3rem;
+        padding-top: 1rem;
+    }
+    
+    .ajustes_section_gaia{
+        padding: 1rem;
+    }
+
+    .h1_gaia{
+        font-size: 1.5rem;
+    }
+
+    .texto_gaia{
+        font-size: 1.1rem;
+        padding: 0.5rem;
+    }
+
+    .imagem_gaia{
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+@media (min-width: 541px) and (max-width: 744px) {
+    .apresentacao{
+        height: 80vh;
+    }
+
+    .logo_gaia{
+        margin-top: 2rem;
+        height: 20rem;
+        width: 20rem;
+    }
+
+    .section_texto_sustentavel{
+        height: 100vh;
+    }
+
+    .texto_sustentavel_titulo{
+        font-size: 2rem;
+        padding-top: 3rem;
+    }
+
+    .texto_sustentavel_texto{
+        font-size: 1.5rem;
+        padding-top: 2rem;
+    }
+    
+    .ajustes_section_gaia{
+        padding: 1rem;
+    }
+
+    .h1_gaia{
+        font-size: 1.5rem;
+    }
+
+    .texto_gaia{
+        font-size: 1.1rem;
+        padding: 0.5rem;
+    }
+
+    .imagem_gaia{
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+@media (min-width: 745px) and (max-width: 834px) {
+    .apresentacao{
+        height: 80vh;
+    }
+
+    .logo_gaia{
+        margin-top: 2rem;
+        height: 20rem;
+        width: 20rem;
+    }
+
+    .section_texto_sustentavel{
+        height: 90vh;
+    }
+
+    .texto_sustentavel_titulo{
+        font-size: 2rem;
+        padding-top: 3rem;
+    }
+
+    .texto_sustentavel_texto{
+        font-size: 1.5rem;
+        padding-top: 2rem;
+    }
+    
+    .ajustes_section_gaia{
+        padding: 1rem;
+    }
+
+    .h1_gaia{
+        font-size: 1.5rem;
+    }
+
+    .texto_gaia{
+        font-size: 1.1rem;
+        padding: 0.5rem;
+    }
+
+    .imagem_gaia{
+        width: 15rem;
+        height: 15rem;
+    }
+}
+
+@media (min-width: 835px) and (max-width: 973px) {
+    .apresentacao{
+        height: 75vh;
+    }
+
+    .logo_gaia{
+        margin-top: 2rem;
+        height: 25rem;
+        width: 25rem;
+    }
+
+    .section_texto_sustentavel{
+        height: 90vh;
+    }
+
+    .texto_sustentavel_titulo{
+        font-size: 2rem;
+        padding-top: 3rem;
+    }
+
+    .texto_sustentavel_texto{
+        font-size: 1.8rem;
+        padding-top: 1rem;
+    }
+    
+    .ajustes_section_gaia{
+        padding: 1rem;
+    }
+
+    .h1_gaia{
+        font-size: 1.5rem;
+    }
+
+    .texto_gaia{
+        font-size: 1.1rem;
+        padding: 0.5rem;
+    }
+
+    .imagem_gaia{
+        width: 20rem;
+        height: 20rem;
+    }
 }

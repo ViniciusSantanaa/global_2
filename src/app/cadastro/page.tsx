@@ -5,6 +5,8 @@ import { TipoProjeto } from "@/types/types"
 
 export default function Cadastro(){
 
+    const apiKey =  process.env.NEXT_PUBLIC_GAIA_KEY || "";
+
     const [projeto, setProjeto] = useState<TipoProjeto>({
         nome: "",
         descricaoProjeto: "",
@@ -22,7 +24,7 @@ export default function Cadastro(){
         evento.preventDefault()
         
         try{
-            const response = await fetch("ENDERECO API", {
+            const response = await fetch(apiKey, {
                 method: "POST",
                 headers: {
                     "Content-Type":"application/json"
@@ -57,31 +59,31 @@ export default function Cadastro(){
                     <div className={styles.div_labels}>
                         <label htmlFor="idNome" className={styles.label}>Nome do Projeto</label>
                         <input type="text" name="nome" id="idNome" value={projeto.nome} 
-                        onChange={(e) => handleChange(e)} placeholder="Digite o nome do projeto" required className={styles.input}/>
+                        onChange={(evento) => handleChange(evento)} placeholder="Digite o nome do projeto" required className={styles.input}/>
                     </div>
 
                     <div className={styles.div_labels}>
                         <label htmlFor="idDesc" className={styles.label}>Descrição do projeto</label>
                         <input type="text" name="descricaoProjeto" id="idDesc" value={projeto.descricaoProjeto} 
-                        onChange={(e) => handleChange(e)} placeholder="Faça uma breve descrição do projeto" required className={styles.input}/>
+                        onChange={(evento) => handleChange(evento)} placeholder="Faça uma breve descrição do projeto" required className={styles.input}/>
                     </div>
 
                     <div className={styles.div_labels}>
                         <label htmlFor="idTipo" className={styles.label}>Tipo de energia</label>
                         <input type="text" name="tipoEnergia" id="idTipo" value={projeto.tipoEnergia} 
-                        onChange={(e) => handleChange(e)} placeholder="Diga qual energia sustentável seu projeto usa" required className={styles.input}/>
+                        onChange={(evento) => handleChange(evento)} placeholder="Diga qual energia sustentável seu projeto usa" required className={styles.input}/>
                     </div>
 
                     <div className={styles.div_labels}>
                         <label htmlFor="idMeta" className={styles.label}>Meta a ser batida (apenas números)</label>
                         <input type="text" name="valorMeta" id="idMeta" value={projeto.valorMeta} 
-                        onChange={(e) => handleChange(e)} placeholder="Digite uma meta que seu projeto queira bater" required className={styles.input}/>
+                        onChange={(evento) => handleChange(evento)} placeholder="Digite uma meta que seu projeto queira bater" required className={styles.input}/>
                     </div>
 
                     <div className={styles.div_labels}>
                         <label htmlFor="idArrecado" className={styles.label}>Meta a ser batida (apenas números)</label>
                         <input type="text" name="valorArrecado" id="idArrecado" value={projeto.valorArrecado} 
-                        onChange={(e) => handleChange(e)} placeholder="Digite valor que sua empresa já arrecadou" required className={styles.input}/>
+                        onChange={(evento) => handleChange(evento)} placeholder="Digite valor que sua empresa já arrecadou" required className={styles.input}/>
                     </div>
 
                     <div>

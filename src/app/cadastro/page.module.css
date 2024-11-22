@@ -1,0 +1,13 @@
+.titulo{
+    color: var(--cor-verde);
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.texto{
+    color: var(--cor-verde);
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}

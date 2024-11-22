@@ -11,8 +11,8 @@ export default function Cadastro(){
         nome: "",
         descricaoProjeto: "",
         tipoEnergia: "",
-        valorMeta: "",
-        valorArrecado: "",
+        valorMeta: 0.0,
+        valorArrecado: 0.0,
     })
 
     const handleChange = (evento: React.ChangeEvent<HTMLInputElement>) => {

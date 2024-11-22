@@ -3,6 +3,7 @@
     font-size: 2rem;
     margin-left: 2rem;
     margin-top: 2rem;
+    margin-right: 2rem;
 }
 
 .texto{
@@ -10,4 +11,43 @@
     font-size: 1.2rem;
     margin-left: 2rem;
     margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+.ajuste_divs{
+    padding: 2rem;
+}
+
+.div_labels{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.label{
+    color: var(--cor-verde);
+    font-size: 1rem;
+}
+
+.input{
+    margin-top: 0.5rem;
+    width: 20rem;
+    height: 3rem;
+    border: solid 0.1rem var(--cor-verde);
+    border-radius: 0.2rem;
+}
+
+.button{
+    color: white;
+    margin-top: 1.5rem;
+    background-color: var(--cor-verde);
+    border: none;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
+.input::placeholder{
+    color: #1D3B34;
+    padding-left: 0.5rem;
 }

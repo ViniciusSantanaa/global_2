@@ -84,7 +84,7 @@
     height: 30rem;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 414px) {
     .section_texto_sustentavel{
         margin-top: 10rem;
         height: 105vh;

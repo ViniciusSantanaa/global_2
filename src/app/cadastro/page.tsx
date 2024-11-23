@@ -77,13 +77,13 @@ export default function Cadastro(){
                     <div className={styles.div_labels}>
                         <label htmlFor="idMeta" className={styles.label}>Meta a ser batida (apenas números)</label>
                         <input type="text" name="valorMeta" id="idMeta" value={projeto.valorMeta} 
-                        onChange={(evento) => handleChange(evento)} placeholder="Digite uma meta que seu projeto queira bater" required className={styles.input}/>
+                        onChange={(e) => setProjeto({ ...projeto, valorMeta: Number(e.target.value) })} placeholder="Digite uma meta que seu projeto queira bater" required className={styles.input}/>
                     </div>
 
                     <div className={styles.div_labels}>
                         <label htmlFor="idArrecado" className={styles.label}>Meta a ser batida (apenas números)</label>
                         <input type="text" name="valorArrecado" id="idArrecado" value={projeto.valorArrecado} 
-                        onChange={(evento) => handleChange(evento)} placeholder="Digite valor que sua empresa já arrecadou" required className={styles.input}/>
+                        onChange={(e) => setProjeto({ ...projeto, valorMeta: Number(e.target.value) })}placeholder="Digite valor que sua empresa já arrecadou" required className={styles.input}/>
                     </div>
 
                     <div>

@@ -83,7 +83,7 @@ export default function Cadastro(){
                     <div className={styles.div_labels}>
                         <label htmlFor="idArrecado" className={styles.label}>Valor arrecadado (apenas números)</label>
                         <input type="text" name="valorArrecado" id="idArrecado" value={projeto.valorArrecado} 
-                        onChange={(e) => setProjeto({ ...projeto, valorMeta: Number(e.target.value) })}placeholder="Digite valor que sua empresa já arrecadou" required className={styles.input}/>
+                        onChange={(e) => setProjeto({ ...projeto, valorArrecado: Number(e.target.value) })}placeholder="Digite valor que sua empresa já arrecadou" required className={styles.input}/>
                     </div>
 
                     <div>
